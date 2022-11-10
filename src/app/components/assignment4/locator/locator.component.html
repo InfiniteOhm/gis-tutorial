@@ -1,0 +1,25 @@
+<div class="flex flex-col w-80">
+  <h1 class="text-center text-2xl font-bold pt-3">Go To Postion</h1>
+  <h2 class="text-xl pt-2 pb-2">Latitude</h2>
+  <p-inputNumber
+    class="justify-center"
+    placeholder="Latitude"
+    [(ngModel)]="latitude"
+    mode="decimal"
+    [minFractionDigits]="5"
+  ></p-inputNumber>
+  <h2 class="text-xl pt-1 pb-2">Latitude</h2>
+  <p-inputNumber
+    class="pb-4 justify-center"
+    placeholder="Longtitude"
+    [(ngModel)]="longtitude"
+    mode="decimal"
+    [minFractionDigits]="5"
+  ></p-inputNumber>
+  <button
+    pButton
+    type="button"
+    label="Locate"
+    (click)="onBtnLocatedClicked()"
+  ></button>
+</div>

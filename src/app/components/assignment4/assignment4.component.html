@@ -1,0 +1,8 @@
+<div class="flex justify-between">
+  <div>
+    <app-mapgis #mapgisComponent></app-mapgis>
+  </div>
+  <div>
+    <app-locator (locate)="onClickLocate($event)"></app-locator>
+  </div>
+</div>
