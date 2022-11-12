@@ -7,6 +7,10 @@ export class CalculatorService {
   sum: number = 0;
   tempNumer: number = 0;
   tempOperand: string = 'i';
+  sumFlag: boolean = false;
+  minusFlag: boolean = false;
+  multiFlag: boolean = false;
+  devineFlag: boolean = false;
   constructor() {}
 
   getTest(): string {

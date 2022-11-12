@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { LocatorComponent } from './components/assignment4/locator/locator.component';
-import { Assignment4Component } from './components/assignment4/assignment4.component';
+import { Assignment5Component } from './components/assignment5/assignment5.component';
 
 const routes: Routes = [
   {
@@ -20,7 +20,7 @@ const routes: Routes = [
   },
   {
     path: 'assignment5',
-    component: Assignment4Component,
+    component: Assignment5Component,
   },
 ];
 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CalculatorService } from 'src/app/calculator.service';
+
 @Component({
   selector: 'app-calculator',
   templateUrl: './calculator.component.html',
@@ -27,6 +28,7 @@ export class CalculatorComponent implements OnInit {
 
   pressNumber(number: number) {
     this.showDisplay += number.toString();
+    console.log(this.showDisplay);
   }
 
   pressOperand(operand: string) {

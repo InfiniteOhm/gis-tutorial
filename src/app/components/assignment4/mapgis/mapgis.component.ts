@@ -35,7 +35,7 @@ export class MapgisComponent implements AfterViewInit {
         center: [Number(data.long), Number(data.lat)],
       },
       {
-        duration: 8000,
+        duration: 500,
       }
     );
   }

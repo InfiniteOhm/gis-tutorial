@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { MapgisComponent } from './components/assignment4/mapgis/mapgis.component';
 import { Assignment4Component } from './components/assignment4/assignment4.component';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { Assignment5Component } from './components/assignment5/assignment5.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
     LocatorComponent,
     MapgisComponent,
     Assignment4Component,
+    Assignment5Component,
   ],
   imports: [
     BrowserModule,
